@@ -28,4 +28,8 @@ class ModelExtensionPaymentGcash extends Model {
 
 		return $method_data;
 	}
+	
+	public function recurringPayments() {
+		return true;
+	}
 }
